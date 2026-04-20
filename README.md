@@ -1,7 +1,7 @@
 # ADDFL
 
 ## Description
-This repository contains the implementation of **ADDFL** (**A**dversarial **D**iscrepancy based **D**ata **F**ault **L**ocalization).
+This repository contains the implementation of **ADDFL** (dversarial Discrepancy-Based Data Fault Localization for Deep Learning Systems).
 
 ADDFL is a data fault localization framework for deep learning datasets. It detects suspicious training instances by comparing the behavior of an original model and its adversarially trained counterpart on the same input. Instead of relying only on the natural training dynamics of a single model, ADDFL uses adversarial training as an explicit probing mechanism to amplify behavioral differences between clean and faulty samples.
 
