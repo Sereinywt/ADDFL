@@ -5,7 +5,7 @@ This repository contains the implementation of **ADDFL** (Adversarial Discrepanc
 
 ADDFL is a data fault localization framework for deep learning datasets. It detects suspicious training instances by comparing the behavior of an original model and its adversarially trained counterpart on the same input. Instead of relying only on the natural training dynamics of a single model, ADDFL uses adversarial training as an explicit probing mechanism to amplify behavioral differences between clean and faulty samples.
 
-The current implementation supports both single run execution and batch experiments on multiple benchmark settings. It also provides evaluation scripts for comparison with representative baselines, including **CleanLab**, **SimiFeat**, **NCNV**, **DIF**, and **DeepGini**.
+The current implementation supports both single run execution and batch experiments on multiple benchmark settings. It also provides evaluation scripts for comparison with representative baselines, including **Dfaulo**, **CleanLab**, **SimiFeat**, **NCNV**, **DIF**, and **DeepGini**.
 
 ## Overview
 The ADDFL pipeline consists of four main stages:
